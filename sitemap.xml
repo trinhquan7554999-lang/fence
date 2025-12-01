@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://FenceFixer.space//index.php</loc>
+    <priority>1.00</priority>
+  </url>
+  
+  <url>
+    <loc>https://FenceFixer.space//about.php</loc>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://FenceFixer.space//service.php</loc>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://FenceFixer.space//contact.php</loc>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://FenceFixer.space//privacy.php</loc>
+    <priority>0.50</priority>
+  </url>
+
+  <url>
+    <loc>https://FenceFixer.space//terms.php</loc>
+    <priority>0.50</priority>
+  </url>
+
+  <url>
+    <loc>https://FenceFixer.space//cookies.php</loc>
+    <priority>0.50</priority>
+  </url>
+
+</urlset>
