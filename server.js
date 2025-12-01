@@ -1,16 +1,17 @@
 const express = require("express");
 const path = require("path");
+
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-// Serve all files in this folder (HTML, CSS, JS, images)
-app.use(express.static(path.join(__dirname)));
+// Serve all static files (html, css, img, etc.) from the repo root
+app.use(express.static(__dirname));
 
-// For any route, send index.html by default
-app.get("*", (req, res) => {
+// Home page: send index.html
+app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "index.html"));
 });
 
 app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
+  console.log(`Server running on port ${PORT}`);
 });
